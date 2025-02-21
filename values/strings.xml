@@ -1,0 +1,354 @@
+<resources>
+    <string name="app_name">HerWell</string>
+    <string name="title_activity_home">homeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="tag_line">Instant Comfort \n Anytime, Anywhere</string>
+
+    <string name="menstruation_info">Menstruation is a way of your body letting go of something that is no longer needed</string>
+    <string name="product">Product</string>
+    <string name="food">Food</string>
+    <string name="medicines">Medicines</string>
+    <string name="period_tracker">Period Tracker</string>
+    <string name="remedies_suggestions">Remedies and Suggestions</string>
+    <string name="consultations">Consultations</string>
+    <string name="community_service">Community Service</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+
+
+    <string-array name="pad_name">
+        <item>Stayfree Advanced All Night Ultra comfort XXL</item>
+        <item>Stayfree Secure Cottony soft Sanitary Pads - Regular</item>
+        <item>Whisper Choice Sanitary Pads XL</item>
+        <item>Whisper Bindazzz Nights Period Panty</item>
+        <item>HealthFab GoPadfree Reusable Period Panty</item>
+    </string-array>
+
+    <integer-array name="pad_drawable">
+        <item>@drawable/stayfree_night</item>
+        <item>@drawable/stayfree_secure</item>
+        <item>@drawable/whisperchoice</item>
+        <item>@drawable/whsiper_period_panties</item>
+        <item>@drawable/healthfab_perio_panty</item>
+    </integer-array>
+
+
+    <string-array name="pad_price">
+        <item>Rs 260</item>
+        <item>Rs 84</item>
+        <item>Rs 50</item>
+        <item>Rs 532</item>
+        <item>Rs 500</item>
+    </string-array>
+
+
+    <string-array name="tampons_name">
+        <item>Pee Safe Organic Cotton Tampon</item>
+        <item>Stayfree Tampons</item>
+        <item>Sirona Hygiene Tampons</item>
+    </string-array>
+
+    <integer-array name="tampons_drawable">
+        <item>@drawable/cotton_tampons</item>
+        <item>@drawable/stayfree_tampons</item>
+        <item>@drawable/sirona_tampons</item>
+    </integer-array>
+
+    <string-array name="tampons_price">
+        <item>Rs 320</item>
+        <item>Rs 150</item>
+        <item>Rs 315</item>
+    </string-array>
+
+
+    <string-array name="menstrual_cup_name">
+        <item>Pee Safe Reusable Menstrual Cup</item>
+        <item>Sirona Hygiene Reusable Menstrual Cup</item>
+    </string-array>
+
+    <integer-array name="cups_drawable">
+        <item>@drawable/pee_safe_menstrual_cup</item>
+        <item>@drawable/sirona_menstrual_cup</item>
+    </integer-array>
+
+    <string-array name="menstrual_cup_price">
+        <item>Rs 349</item>
+        <item>Rs 399</item>
+    </string-array>
+
+
+    <string-array name="pain_relief_name">
+        <item>Boldfit Careforce PVC Hot Water Bag</item>
+        <item>Nua Cramp Comfort Heat Patches</item>
+        <item>HealthFab GoPainFree Instant Period Pain Relief Cream</item>
+    </string-array>
+
+    <integer-array name="pain_drawable">
+        <item>@drawable/hot_water_bag</item>
+        <item>@drawable/heat_patch</item>
+        <item>@drawable/pain_relief_cream</item>
+    </integer-array>
+
+    <!-- Array for Pain Relief Prices -->
+    <string-array name="pain_relief_price">
+        <item>Rs 500</item>
+        <item>Rs 340</item>
+        <item>Rs 350</item>
+    </string-array>
+
+    <!-- Array for Cocoa Craving Products -->
+    <string-array name="cocoa_craving_name">
+        <item>Amul Dark Chocolate</item>
+        <item>Cadbury Bournville</item>
+        <item>Hershey\'s Exotic Dark Blueberry &amp; Acai</item>
+        <item>Lindt Excellence 70% Dark</item>
+        <item>Toblerone Dark Chocolate</item>
+    </string-array>
+
+    <integer-array name="cocoa_drawable">
+        <item>@drawable/amul_dark</item>
+        <item>@drawable/bournville</item>
+        <item>@drawable/hersheys</item>
+        <item>@drawable/lindt</item>
+        <item>@drawable/toblerone</item>
+    </integer-array>
+
+    <!-- Array for Cocoa Craving Prices -->
+    <string-array name="cocoa_craving_price">
+        <item>Rs 200</item>
+        <item>Rs 55</item>
+        <item>Rs 160</item>
+        <item>Rs 450</item>
+        <item>Rs 199</item>
+    </string-array>
+
+
+    <!-- Array for Fruits -->
+    <string-array name="fruits_name">
+        <item>Banana - 4pcs</item>
+        <item>Oranges - 4pcs</item>
+        <item>Watermelon (1.8-3kg)</item>
+        <item>Papaya (800-1200gms)</item>
+        <item>Apples - 2pcs</item>
+        <item>Blueberries (120gms)</item>
+    </string-array>
+
+    <integer-array name="frutis_drawable">
+        <item>@drawable/banana</item>
+        <item>@drawable/orange</item>
+        <item>@drawable/watermelon</item>
+        <item>@drawable/papaya</item>
+        <item>@drawable/apples</item>
+        <item>@drawable/blue_berry</item>
+    </integer-array>
+
+    <!-- Array for Fruits Prices -->
+    <string-array name="fruits_price">
+        <item>Rs 30</item>
+        <item>Rs 59</item>
+        <item>Rs 69</item>
+        <item>Rs 139</item>
+        <item>Rs 159</item>
+        <item>Rs 202</item>
+    </string-array>
+
+    <!-- Array for Nuts & Bars -->
+    <string-array name="nuts_bars_name">
+        <item>Happilo Premium Californian Almonds (1000gms)</item>
+        <item>Open Secret Walnut Kernels (200gms)</item>
+        <item>Happilo Premium Natural Whole Cashews (500gms)</item>
+        <item>RiteBite Max Protein Bar</item>
+        <item>Paper Boat Chikki Family Pack (96gms)</item>
+        <item>24 Mantra Organic Sesame Chikki Pack (200gms)</item>
+        <item>Farmley Date Bites (180gms)</item>
+    </string-array>
+
+    <integer-array name="nuts_drawable">
+        <item>@drawable/almonds</item>
+        <item>@drawable/walnuts</item>
+        <item>@drawable/cashews</item>
+        <item>@drawable/protein_bar</item>
+        <item>@drawable/paper_boat_chikki</item>
+        <item>@drawable/sesame_chikki</item>
+        <item>@drawable/date_bites</item>
+    </integer-array>
+
+    <!-- Array for Nuts & Bars Prices -->
+    <string-array name="nuts_bars_price">
+        <item>Rs 1350</item>
+        <item>Rs 350</item>
+        <item>Rs 996</item>
+        <item>Rs 69</item>
+        <item>Rs 42</item>
+        <item>Rs 100</item>
+        <item>Rs 400</item>
+    </string-array>
+
+
+    <!-- Array for Veggies -->
+    <string-array name="veggies_name">
+        <item>Spinach (250-300gms)</item>
+        <item>Kale Leaf (100gms)</item>
+        <item>Broccoli - 1pc</item>
+        <item>Ginger (200gms)</item>
+    </string-array>
+
+    <integer-array name="veggies_drawable">
+        <item>@drawable/spinach</item>
+        <item>@drawable/kale_leaf</item>
+        <item>@drawable/broccoli</item>
+        <item>@drawable/ginger</item>
+    </integer-array>
+
+    <!-- Array for Veggies Prices -->
+    <string-array name="veggies_price">
+        <item>Rs 36</item>
+        <item>Rs 35</item>
+        <item>Rs 89</item>
+        <item>Rs 30</item>
+    </string-array>
+
+    <!-- Array for Allopathy Medicines -->
+    <string-array name="allopathy_name">
+        <item>Naproxen - 15 tabs</item>
+        <item>Ibuprofen - 15 tabs</item>
+        <item>Meftal Spas - 10 tabs</item>
+        <item>Cyclopam - 10 tabs</item>
+        <item>Primolut-N - 10 tabs</item>
+    </string-array>
+
+    <integer-array name="alopathy_drawable">
+        <item>@drawable/naproxen</item>
+        <item>@drawable/ibuprofen</item>
+        <item>@drawable/meftal_spas</item>
+        <item>@drawable/cyclopam</item>
+        <item>@drawable/primoult</item>
+    </integer-array>
+
+    <!-- Array for Allopathy Prices -->
+    <string-array name="allopathy_price">
+        <item>Rs 143</item>
+        <item>Rs 11</item>
+        <item>Rs 52</item>
+        <item>Rs 63</item>
+        <item>Rs 60</item>
+    </string-array>
+
+    <!-- Array for Ayurvedic Medicines -->
+    <string-array name="ayurvedic_name">
+        <item>Balu Herbals Kumaryasava</item>
+        <item>Baidyanath Nagpur Ashokarishta Asava</item>
+    </string-array>
+
+    <integer-array name="ayurvedic_drawable">
+        <item>@drawable/kumaryasava</item>
+        <item>@drawable/ashokarishta</item>
+    </integer-array>
+
+    <!-- Array for Ayurvedic Prices -->
+    <string-array name="ayurvedic_price">
+        <item>Rs 270</item>
+        <item>Rs 435</item>
+    </string-array>
+
+    <!-- Array for Homeopathy Medicines -->
+    <string-array name="homeopathy_name">
+        <item>Boiron Cyclease Cramps Tablets - 25 tabs</item>
+        <item>SBL Drops No. 2 - 30ml</item>
+    </string-array>
+
+
+    <integer-array name="homeopathy_drawable">
+        <item>@drawable/boiron</item>
+        <item>@drawable/sbl_drops</item>
+    </integer-array>
+
+    <!-- Array for Homeopathy Prices -->
+    <string-array name="homeopathy_price">
+        <item>Rs 155</item>
+        <item>Rs 155</item>
+    </string-array>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+
+    <!-- Array for Doctor Names -->
+    <string-array name="doctor_names">
+        <item>Dr. Abhinaya Alluri</item>
+        <item>Dr. Karthika Reddy</item>
+        <item>Dr. Swapna Chekuri</item>
+    </string-array>
+
+    <!-- Array for Doctor Qualifications -->
+    <string-array name="doctor_qualifications">
+        <item>MBBS, MS - Obstetrics &amp; Gynaecology</item>
+        <item>MD - Obstetrics &amp; Gynaecology, MBBS</item>
+        <item>MBBS, MD - Obstetrics &amp; Gynaecology</item>
+    </string-array>
+
+    <!-- Array for Doctor Specializations -->
+    <string-array name="doctor_specializations">
+        <item>Gynecologist, Obstetrician, Infertility Specialist</item>
+        <item>Gynecologist</item>
+        <item>Gynecologist, Laparoscopic Surgeon (Obs &amp; Gyn), Infertility Specialist</item>
+    </string-array>
+
+    <!-- Array for Doctor Experience -->
+    <string-array name="doctor_experience">
+        <item>5 Years</item>
+        <item>7 Years</item>
+        <item>15 Years</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@android:drawable/" /-->
+    <item android:id="@+id/nav_medicines"
+        android:title="Medicines"
+        android:icon="@drawable/ic_medicines" />
+    <item android:id="@+id/nav_products"
+        android:title="Products"
+        android:icon="@drawable/ic_products" />
+    <item android:id="@+id/nav_food_tracker"
+        android:title="Food Tracker"
+        android:icon="@drawable/ic_food" />
+    <item android:id="@+id/nav_consultation"
+        android:title="Consultation"
+        android:icon="@drawable/ic_consultation" />
+    <item android:id="@+id/nav_community"
+        android:title="Community Support"
+        android:icon="@drawable/ic_community" />
+</menu>
