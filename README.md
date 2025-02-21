@@ -1,0 +1,1 @@
+HerWell is a mobile app designed to revolutionize menstrual health by providing a smart period tracker, educational resources, and a supportive community. Millions of women still lack access to proper menstrual healthcare, and HerWell aims to change that by making menstrual health simple, accessible, and stigma-free.
